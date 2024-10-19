@@ -1,0 +1,12 @@
+h1{
+    color: #ffffff;   /* hexa code equivalent to rgb(255, 255, 255)*/
+    background-color: #000;
+}
+
+h2{
+    color: rgb(255, 255, 0);
+}
+
+p{
+    color: #0ff;
+}
