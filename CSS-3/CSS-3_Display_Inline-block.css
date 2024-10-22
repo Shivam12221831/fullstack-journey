@@ -1,0 +1,14 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 5px;
+    /* display: inline; */                   /* If we only apply this elements behave as inline but the given styling will not be applicable on them. */
+    display: inline-block;   
+    /* display: inline-block; */  /* In this value of display element - style applied as block but it behave as inline  */
+}
+
+#third{
+    display: none;  /* It is used to hide any element */
+}
