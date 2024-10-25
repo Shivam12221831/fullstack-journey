@@ -1,0 +1,37 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+    border: 5px solid black;
+    /* border-left-color: blue;
+    border-left-style: dashed; */
+    /* border-top: 5px blue dashed; */
+    border-radius: 10px;               /* To make element to look like a circle we have to make its height and width equals and set border-radius to 50% */
+    /* border-top-right-radius: 30px;  */
+    padding: 20px;
+    /* Padding
+        padding: value;                                        applicable for all sides of box
+        padding: value1, value2;                               applicable for (value1 - top & bottom) and (value2 - left & right)
+        padding: value1, value2, value3;                       applicable for (value1 - top), (value - left & right) and (value3 - bottom)
+        padding: value1, value2, value3, value4;               applicable as each value represents one side of box in clockwise direction(t-r-b-l) 
+     */
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+h1{
+    /* border-width: 3px;
+    border-style: dashed;
+    border-color: green; */
+    border: 3px dashed darkgreen;
+    margin-left: 20px;
+}
+button{
+    border: 2px, solid black;
+    border-radius: 15px;
+    background-color: green;
+    /* padding: 10px 20px 30px; */
+    padding: 3px 25px 3px 25px;
+}
