@@ -1,0 +1,17 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.633);
+}
+
+#opacity{
+    background-color: #ffa511;
+    opacity: 0.3;
+}
+
+
+/* Alpha channel work on colour visibility only but opacity wonk on whole element. */
+/* Alpha channel and opacity range from 0 to 1 and in hexadecimal from 00 to ff. */
+/*  0   --   Completely invisible
+    1   --   Completely visible
+*/
