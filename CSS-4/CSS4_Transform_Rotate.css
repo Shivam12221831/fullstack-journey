@@ -1,0 +1,49 @@
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+/* Transform */
+
+#one{
+    /* transform: rotate(180deg);            It will rotate in clockwise direction */
+    transform: rotate(-45deg);       /*   also correct way */
+}
+
+#two{
+    transform: scale(0.5);  /*  work on both direction x and y */
+    /* transform: scale(2, 0.5);  */
+    /* transform: scaleX(2);           work only on x direction */
+    /* transform: scaleY(0.5);         work only on y direction */
+}
+
+#three{
+    /* transform: translate(100px, 100px);  translate means move in x and y direction. It only work in 2d not in 3d*/
+    transform: translateX(-100px);
+}
+
+#four{
+    transform: skew(30deg);
+    /* If we apply skew 90deg then our whole element will be invisible b/c we skewed it to become a single line or point */
+}
+
+#five{
+    transform: rotate(30deg) translateX(150px);
+}
+
+
