@@ -1,0 +1,36 @@
+h2{
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    height: 300px;
+    width: 600px;
+    background-color: yellow;
+    display: grid;
+    /* grid-template-rows: 60px 60px 60px 60px 60px;
+    grid-template-columns: 200px 200px 200px; */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    /* row-gap: 10px;
+    column-gap: 30px; */
+    /* grid-gap: 10px 30px; */
+    grid-gap: 10px;
+}
+
+.item{
+    /* height: 50px;
+    width: 100px; */
+    background-color: lawngreen;
+    border: 2px solid black;
+    /* border-radius: 5px; */
+    text-align: center;
+}
