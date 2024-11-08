@@ -1,0 +1,25 @@
+.container-md{
+    background-color: yellow;
+}
+
+#simple_btn{
+    padding-left: 90px;
+}
+
+#outline_btn{
+    padding-left: 90px;
+}
+
+@media (max-width:769px){
+    #simple_btn{
+        padding-left: 0;
+    }
+    #outline_btn{
+        padding-left: 0;
+    }
+}
+
+#google{
+    display: flex;
+    justify-content: center;
+}
